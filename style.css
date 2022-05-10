@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;   
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+header img{
+    margin-top: 0px;
+    margin-left: 84px;
+}
+body{
+    background-color: #F3F5FC;
+}
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftSection{
+    width: 900px;
+    height: 500px;
+    margin-left: 1%;
+}
+.rightSection{
+    width: 400px;
+    height: 500px;
+    margin-right: 5%;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.rightSection img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-top: 20%;
+}
+.rightSection h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    color: #48CAC0;    
+}
+.rightSection p{
+    font-size: 12px;
+    margin-bottom: 1000%;
+    margin-top: 3%;
+}
+.leftArea{
+    width: 90%;
+    height: 85%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 0px;
+    text-align: center;
+    background-color: #F3F5FC;
+}
+.buttons{
+    text-align: center;    
+}
+.encryptButton, .decryptButton{
+    width: 25%;
+    height: 50px;
+    margin-top: 1%;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.encryptButton{
+    background-color: #FED86B;
+    color: #48CAC0;
+    border: 2px solid #48CAC0;
+}
+.decryptButton{
+    background-color: #48CAC0;
+    color: #FED86B;
+    border: 2px solid #FED86B;
+}
+.deleteImage{
+    display: none;
+}
+.encryptResult{
+    width: 100%;
+    height: 70%;
+    margin-bottom: -10%;
+}
+.encryptResult h4{
+    font-weight: 400;
+    font-size: 13px;
+}
+.divCopy{
+    width: 100%;
+    height: 20%;
+}
+.buttonCopy{
+    width: 75%;
+    height: 50px;
+    margin-top: 25%;
+    font-size: 18px;
+    font-weight: 900;
+    color:#48CAC0;
+    background-color: white;
+    border: 2px solid #48CAC0;
+    border-radius: 15px;
+}
+footer{
+    margin-top: 50px;
+}
+footer p, a{
+    text-align: center;
+    font-weight: 550;
+    font-size: 10px;
+    color:rgb(71, 71, 71)
+}
+footer a{
+    color:#48CAC0;
+}
+footer img{
+    width: 30px;
+}
+.logoGit{
+    margin-left: 48%;
+    margin-top: 5px;
+}
